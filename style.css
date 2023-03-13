@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body{
+    background-color: lightcyan;
+    color: black;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: lightblue;
+   padding: 1.5rem;
+   text-transform: uppercase;
+   font-family: 'Bitter', serif;
+}
+
+a:hover{
+    background-color: aliceblue;
+}
+a:visited{
+    background-color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+}
+.card{
+    background-color: gray;
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+}
+li {
+    list-style-type: none;
+}
+
+#card2{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    width: 50px;
+}
+img{
+    width: 30%;
+}
